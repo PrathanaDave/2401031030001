@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('3back.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.topic-row {
+    display: flex;
+    justify-content: space-around; /* Distribute 3 buttons evenly */
+    gap: 20px;
+}
+
+.topic {
+    background: #680c50;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white; /* Text color */
+    font-weight: bold; /* Make the text bold */
+    text-decoration: none; /* Remove underline */
+    text-align: center;
+    flex: 1; /* Make buttons take equal width */
+}
+
+.topic:hover {
+    background: #805a9d;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links {
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

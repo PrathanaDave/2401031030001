@@ -1,0 +1,71 @@
+body {
+    background: url('6back.png') no-repeat center center fixed; /* Replace with an actual space background image URL */
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(128, 0, 128, 0.8); /* Purple color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(128, 0, 128, 1); /* Darker purple on hover */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+footer nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
